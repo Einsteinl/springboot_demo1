@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class LoginController {
     @GetMapping("/test")
     public String test1(){
-        return "hello world";
+        System.out.println("shi wo ai si le zuotian");
+
+        return "first test";
     }
 }
